@@ -35,7 +35,10 @@ const ComingSoon = ({ message = "Coming Soon..." }) => {
                 `}
             </style>
         </div>
+
     );
 };
+
+
 
 export default ComingSoon;
