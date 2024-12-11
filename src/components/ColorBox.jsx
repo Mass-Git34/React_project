@@ -1,5 +1,5 @@
 import React from "react"; //React library to create component and use jsx
-
+//hi
 const ColorBox = ({ color, text }) => {
   return (
     <div
