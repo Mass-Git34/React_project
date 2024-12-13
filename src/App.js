@@ -40,7 +40,7 @@ function App() {
       <Routes>
         {" "}
         {/* Container for all route definitions. Ensures only one route is rendered at a time */}
-        <Route path="/home" element={<Home />} />{" "}
+        <Route path="/" element={<Home />} />{" "}
         {/* Maps a URL path to a specific React component (element).*/}
         <Route path="/task1" element={<Task1 />} /> {/* */}
         <Route path="/task2" element={<Task2 />} />
