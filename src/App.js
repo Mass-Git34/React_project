@@ -4,6 +4,7 @@ import Home from "./pages/Home"; //Page imports Home, task1 and task2 are compon
 import Task1 from "./pages/Task1";
 import Task2 from "./pages/Task2";
 import Task3 from "./pages/Task3";
+import State from "./components/Hooks/State";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
         {/* Maps a URL path to a specific React component (element).*/}
         <Route path="/task1" element={<Task1 />} /> {/* */}
         <Route path="/task2" element={<Task2 />} />
-        <Route path="/task3" element={<Task3 />} />
+        <Route path="/task3" element={<Task3 />} />State
+        <Route path="/hook" element={<State />} />
       </Routes>
     </Router>
   );
